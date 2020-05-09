@@ -1,46 +1,84 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
+    <title>Stupid Banana Shop</title>
     <link rel="stylesheet" href="main.css">
     <script src="js/banana.js"></script>
 </head>
+
 <body class="outline">
-    <div align="middle"><a href="/index.html"><table><td><img src="media/banana left.png" alt="" width="100px"></td><td><h1 class="title">Stupid Banana Shop</h1></td><td><img src="media/banana right.png" alt="" width="100px"></td></table></a></div> 
-    <h1 style="font-size: 75px;" align="middle" class="outline">Banana</h1>
+    <div align="middle"><a href="/index.html">
+            <table>
+                <td><img src="media/banana left.png" alt="" width="100px"></td>
+                <td>
+                    <h1 class="title">Stupid Banana Shop</h1>
+                </td>
+                <td><img src="media/banana right.png" alt="" width="100px"></td>
+            </table>
+        </a></div>
+    <h1 style="font-size: 75px;" align="center" class="outline">Banana</h1>
     <section class="mainSection">
-    <table>
-    <tr><td><table>
-    <tr><td class="inandout"><a onclick="function1();"><img src="media/banana/1.png" alt="" align="left" width="75px"></a></td></tr>
-    <tr><td class="inandout"><a onclick="function2();"><img src="media/banana/2.png" alt="" align="left" width="75px"></a></td></tr>
-    <tr><td class="inandout"><a onclick="function3();"><img src="media/banana/3.png" alt="" align="left" width="75px"></a></td></tr>
-    <tr><td class="inandout"><a onclick="function4();"><img src="media/banana/4.png" alt="" align="left" width="75px"></a></td></tr>
-    </table>
-    </td>
-    <td><img src="media/banana/1.png" alt="" width="312px" align="left" id="mainImage"></td>
-    <td>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-    <td align="right">
-        <h1 align="right"><h1 align="middle">This is a banana. What more is there to say?<br> It's the base of everything on earth. <br><del style="font-size: 50%;" class="outline1">atleast for everything around bananas</del></h1></h1>
-    </td>
-    <td align="right">
-        <h1 align="right"><h1 align="middle">Choose how many bananas you want!</h1></h1><br><br>
-    </td>
-    <td>
-        <select id="amount">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-    </select>
-</td>
-    </tr>
-    </table>
+        <table>
+            <div class="images">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td class="inandout"><a onclick="function1();">
+                                        <div align="center"><img src="media/banana/1.png" alt="" width="75px"></div>
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td class="inandout"><a onclick="function2();">
+                                        <div align="center"><img src="media/banana/2.png" alt="" width="75px"></div>
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td class="inandout"><a onclick="function3();">
+                                        <div align="center"><img src="media/banana/3.png" alt="" width="75px"></div>
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td class="inandout"><a onclick="function4();">
+                                        <div align="center"><img src="media/banana/4.png" alt="" width="75px"></div>
+                                    </a></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td><img src="media/banana/1.png" alt="" width="327px" id="mainImage"></td>
+                </tr>
+            </div>
+            <tr>
+                <table align="center">
+                    <td>
+                        <h1>
+                            <h1 align="middle">This is a banana. What more is there to say?<br> It's the base of
+                                everything on earth.<br><del style="font-size: 50%;" class="outline1">atleast for
+                                    everything around bananas</del></h1>
+                        </h1>
+                    </td>
+                </table>
+            </tr>
+            <tr>
+                <div style="text-align:center;">
+                    <span class="Question">Choose how many bananas you want!</span>
+                    <select id="amount" style="font-size: 15px;">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <button>Buy</button>
+                </div>
+                </td>
+            </tr>
+        </table>
     </section>
 </body>
-<!-- &ensp; -->
-</html>
