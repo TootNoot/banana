@@ -32,3 +32,7 @@ a:link {
 .inandout:hover {
     transform: scale(0.9);
 }
+
+.outlineG {
+    text-shadow: -1px -1px 0 rgb(0, 255, 0), 1px -1px 0 rgb(0, 255, 0), -1px 1px 0 rgb(0, 255, 0), 1px 1px 0 rgb(0, 255, 0);
+}

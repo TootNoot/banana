@@ -5,41 +5,36 @@ body {
     background-attachment: fixed;  
     background-size: cover;
 }
-
 a:visited {
     text-decoration: none;
     color: black;
 }
-
 a:link {
     text-decoration: none;
     color: black;
 }
-
 .title {
     color: yellow;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
-
 .outline {
     text-shadow: -2px -2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 255, 255), -2px 2px 0 rgb(255, 255, 255), 2px 2px 0 rgb(255, 255, 255);
 }
-
 .inandout {
     transition: transform 0.25s;
 }
-
 .inandout:hover {
     transform: scale(0.9);
 }
-
 .mainSection {
     background-color: rgba(255, 255, 255, 50%);
 }
-
 .img {
     background-color: white;
 }
 .outline1 {
     text-shadow: -0.5px -0.5px 0 rgb(255, 255, 255), 0.5px -0.5px 0 rgb(255, 255, 255), -0.5px 0.5px 0 rgb(255, 255, 255), 0.5px 0.5px 0 rgb(255, 255, 255);
+}
+.runescapeLinksLol:hover {
+    text-decoration: underline;
 }
